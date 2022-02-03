@@ -48,11 +48,9 @@ public class CardTrick {
             }
         }
         
+        // new Card object array with one element added
+        Card [] luckyCard = new Card[1];
+        luckyCard[0] = new Card(7, "hearts");
+        
     }
-// step 2 take input from user, guess the card -- 2 spades -- find in array -- print message card is found -- else not found
-// complete the code and push it to the repository
-// step 3 hard coded card details in RR 
-//like  card no = 2, hearts 
-// find card it array
-// pull it back
 }
